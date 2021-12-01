@@ -3,6 +3,9 @@
 //     padding: 0;
 // }
 
+.position-film-affiche{
+    margin-top: 927px;
+}
 
 .bandeau {
     display:flex;
@@ -102,6 +105,7 @@ p{
     color:white;
     position: absolute;
 }
+
 #button_left {
     transform:rotate(-9deg);
     bottom:-10%;
