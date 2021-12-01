@@ -3,9 +3,9 @@
 //     padding: 0;
 // }
 
-.position-film-affiche{
-    margin-top: 927px;
-}
+// .position-film-affiche{
+//     margin-top: 927px;
+// }
 
 .bandeau {
     display:flex;
@@ -29,16 +29,6 @@
     bottom:0px;
 }
 
-
-
-
-
-
-
-img {
-    width:320px;
-    height:450px;
-}
 
 .films_gauche {
     display:flex;
@@ -116,4 +106,9 @@ p{
     transform:rotate(9deg);
     bottom:-10%;
     left:-5%;
+}
+
+.affiches_films {
+    width:320px;
+    height:450px;
 }
