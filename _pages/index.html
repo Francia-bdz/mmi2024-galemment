@@ -2,9 +2,16 @@
 title: Bienvenue sur la page d'accueil
 ---
 
+<section class="cover">
+
+    {% include cover.html %}
+
+</section>
+
 <!-- Ce bout de code est fait pour vous servir d'exemple, n'oubliez pas de le supprimer quand vous n'en aurez plus besoin ! -->
 <section class="news">
 
+<<<<<<< HEAD
     {% include news-box.html title="Un premier article" text="Ici la description du premier article" %}
 
     {% include news-box.html title="Un second article" text="Ici la description du deuxième article" %}
@@ -12,19 +19,15 @@ title: Bienvenue sur la page d'accueil
     {% include news-box.html title="Un troisième article" text="Ici la description du troisième article, et tout ça, avec le même html !" %}
  
     {% include cover-page2.html %}
+=======
+    {% include infocovid.html %}
+
+>>>>>>> bc81ad32dd3d7a56179f68f376de2c0685f0dd8b
 </section>
 
 <!-- Exemple de grille avec bootstrap -->
 <section class="container">
-    <div class="row">
-        <div class="col-3">
-            test
-        </div>
-        <div class="col-3">
-            test
-        </div>
-        <div class="col-6">
-            test
-        </div>
     </div>
 </section>
+
+{% include mobile-header.html %}
