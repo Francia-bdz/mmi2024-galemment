@@ -6,8 +6,9 @@
     font-size: 36px;
 }
 
-.container {
-    background-color:aquamarine;
+.newsletter_section {
+    background-color: rgba(227, 133, 120, 0.15);
+    padding:20px;
 }
 .newsletter_button{
     opacity:70%;
@@ -15,4 +16,8 @@
     font-family: Roboto;
     border: 1px solid rgba(0,0,0,0.44);
     border-radius: 20px;
+}
+
+.fin_footer {
+    background-color:rgba(227, 133, 120, 0.30);
 }
