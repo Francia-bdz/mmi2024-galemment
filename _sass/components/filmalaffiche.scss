@@ -1,13 +1,14 @@
-* {
-    margin:0;
-    padding: 0;
-}
+// * {
+//     margin:0;
+//     padding: 0;
+// }
 
 
 .bandeau {
     display:flex;
     justify-content: flex-end;
 }
+
 .titre {
     position: relative; 
     display:table;
@@ -15,20 +16,6 @@
     margin-bottom: 100px;
 }
 
-h2 {
-    margin: 0;
-    font-family:Roboto;
-    font-size:77px;
-    font-weight:900;
-    position:relative;
-    z-index: 1;
-}
-
-h3 {
-    font-family:Roboto;
-    font-size:50px;
-    font-weight:bold;    
-}
 .rectangle_jaune {
 
     width:400px;
