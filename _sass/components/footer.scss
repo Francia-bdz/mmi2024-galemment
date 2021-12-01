@@ -32,22 +32,34 @@
         .footer_menu_text {
             padding: 3% 0%;
         }
+    
 
     }
 
 }
 
 
-
+.logo_reseaux {
+    margin:10% 0%;
+}
 
 .copyright_logo, .logo_arobase {
     width:30px;
     max-height: 15px;  
-    margin-right: 5px; 
+    margin-right: 3%; 
 }
 
 
 .fin_footer_inline {
     display: flex;
     align-items: center;
+}
+
+
+.fin_footer_reseaux {
+
+}
+
+.text_contacts {
+    margin: 10% 0%;
 }
