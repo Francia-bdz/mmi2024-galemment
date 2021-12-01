@@ -3,11 +3,9 @@
 //     padding: 0;
 // }
 
-// .position-film-affiche{
-//     margin-top: 927px;
-// }
-
-
+.position-film-affiche{
+    background-image: url("/assets/images/Arriere-plan/filounet.svg") ; 
+}
 
 .bandeau {
     display:flex;
@@ -19,7 +17,6 @@
     // display:table;
     padding-right:200px;
     margin-bottom: 100px;
-
 }
 
 .rectangle_jaune {
@@ -78,14 +75,10 @@
     opacity: 50%;
     font-size:16px;
 }
-
-
-
 .date_prochaine_seance {
     font-size: 18px;
     font-weight: 600;
 }
-
 p{
     margin:0;
     padding: 0;
