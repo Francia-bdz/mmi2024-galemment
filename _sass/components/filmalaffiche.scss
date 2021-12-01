@@ -15,20 +15,23 @@
 }
 
 .titre {
-    position: relative; 
-    display:table;
+    // position: relative; 
+    // display:table;
     padding-right:200px;
     margin-bottom: 100px;
+
 }
 
 .rectangle_jaune {
 
     width:400px;
-    position:absolute;
+    position:relative;
     padding:25px;
     background-color: #F5E5A3;
     right:0;
     bottom:0px;
+    margin-left: 62.8%;
+    margin-top: -5%;
 }
 
 
