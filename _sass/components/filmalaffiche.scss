@@ -3,9 +3,11 @@
 //     padding: 0;
 // }
 
-.position-film-affiche{
-    margin-top: 927px;
-}
+// .position-film-affiche{
+//     margin-top: 927px;
+// }
+
+
 
 .bandeau {
     display:flex;
@@ -13,32 +15,25 @@
 }
 
 .titre {
-    position: relative; 
-    display:table;
+    // position: relative; 
+    // display:table;
     padding-right:200px;
     margin-bottom: 100px;
+
 }
 
 .rectangle_jaune {
 
     width:400px;
-    position:absolute;
+    position:relative;
     padding:25px;
     background-color: #F5E5A3;
     right:0;
     bottom:0px;
+    margin-left: 62.8%;
+    margin-top: -5%;
 }
 
-
-
-
-
-
-
-img {
-    width:320px;
-    height:450px;
-}
 
 .films_gauche {
     display:flex;
@@ -116,4 +111,9 @@ p{
     transform:rotate(9deg);
     bottom:-10%;
     left:-5%;
+}
+
+.affiches_films {
+    width:320px;
+    height:450px;
 }
