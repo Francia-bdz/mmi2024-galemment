@@ -2,16 +2,19 @@
 
 
 .evenements_left_box, .evenements_right_box {
+
     border-radius:30px; 
-    overflow:hidden; 
     background-color: #1A353D;
     height:100%;
 }
 
 .evenements_containers {
-
+    overflow: hidden;
     display:flex;
     justify-content: space-around;
+    img {
+        width:100%;
+    }
 }
 
 
@@ -31,7 +34,7 @@
 
 .evenements_box_texte {
 
-    padding: 0px 20px;
+    padding: 10% 20px;
     font-family:Open sans;
     font-size:20px;
     font-weight: bold;
@@ -59,4 +62,8 @@
 
 
 }
+
+
+
+
 
