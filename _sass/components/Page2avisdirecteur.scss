@@ -1,0 +1,33 @@
+.rectangle_jaune {
+    width: 400px;
+    padding: 25px;
+    background-color: #F5E5A3;
+    margin-top: -7%;
+    position: relative;
+    z-index: -1;
+    
+    
+
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 77px;
+    font-weight: bold;
+    color: #1A353D;
+    margin-top: 0%; 
+}
+
+.avis_du_directeur{
+    text-align: auto;
+    padding-top: 3%;
+    font-size: 23px;
+    color: #1A353D;
+    margin-left: 15%;
+
+}
+
+.logo_et_rectangle{
+    justify-content: space-between;
+    display: flex;
+}
