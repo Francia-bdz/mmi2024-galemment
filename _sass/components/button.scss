@@ -1,0 +1,14 @@
+button {
+    font-family: Open sans;
+    color:white;
+    background-color:#D47C70;  
+    display:table;
+    padding:17px;
+    border:0px;
+    border-radius:30px;
+    transition-duration: 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.10);
+  }

@@ -1,3 +1,4 @@
+
 .bloc{
     background-color: rgba(227, 133, 120, 0.5);
     width: 100%;
@@ -20,7 +21,7 @@
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 21px;
     color: white;
-    background-color: #E38578;
+    background-color: #D47C70;
     border-radius: 60px;
     width: fit-content;
     padding: 2%;
@@ -35,8 +36,8 @@
     background-color: white;
     width: 523px;
     height: 62px;
-    margin-top: -4%;
-    margin-left: 50%
+    margin-top: -3%;
+    margin-left: 48.4%
 }
 
 .titre-petit-carré{
@@ -46,25 +47,25 @@
 }
 
 .carré-covid{
-    background-color: #1A353D;
+    background-color: $dark-blue;
     color:white;
     display: flex;
     /* justify-content: flex-end; */
     flex-direction: column;
     border-radius: 32px;
-    padding: 5%;
+    padding: 8%;
     width:434px;
     margin-top: -7%;
 }
 
 .box-titre{
-    margin-left: 45%;
+    margin-left: 60%;
     z-index: 1;
     margin-top: -15%;
 }
 
 .covid{
-    color: #1A353D;
+    color: $dark-blue;
     transform: rotate(-12.57deg);
     margin-bottom: 11%;
     margin-left: -5%;

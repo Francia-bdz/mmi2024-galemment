@@ -1,18 +1,62 @@
+.newsletter_section {
+    background-color: rgba(227, 133, 120, 0.15);
+    padding:20px;
 
-.newsletter_text {
-    font-family: Roboto;
-    font: weight 900px;;
-    line-height: 42px;
-    font-size: 36px;
+
+    .newsletter_text {
+        font-family: $typo-paragraphe;
+        font: weight 900px;;
+        line-height: 42px;
+        font-size: 36px;
+    }
+
+    .newsletter_button{
+        opacity:70%;
+        padding:10px;
+        font-family: $typo-paragraphe;
+        border: 1px solid rgba(0,0,0,0.44);
+        border-radius: 20px;
+    }
 }
 
-.container {
-    background-color:aquamarine;
+
+
+.fin_footer {
+    padding:4%;
+    background-color:rgba(227, 133, 120, 0.30);
+
+    .fin_footer_menu {
+        display:flex;
+        flex-direction:column;
+
+        .footer_menu_text {
+            padding: 3% 0%;
+        }
+    
+
+    }
+
 }
-.newsletter_button{
-    opacity:70%;
-    padding:10px;
-    font-family: Roboto;
-    border: 1px solid rgba(0,0,0,0.44);
-    border-radius: 20px;
+
+
+.logo_reseaux {
+    margin:10% 0%;
+}
+
+.copyright_logo, .logo_arobase {
+    width:30px;
+    max-height: 15px;  
+    margin-right: 3%; 
+}
+
+
+.fin_footer_inline {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.text_contacts {
+    margin: 10% 0%;
 }

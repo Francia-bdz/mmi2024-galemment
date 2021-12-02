@@ -1,0 +1,37 @@
+<section class="evenements">
+    <div class="titre">
+        {% include h2rectangle.html text="Evenements" %}
+    </div>
+
+
+    <div class="container">
+        <div class="row evenements_containers">
+            <div class=" offset-1 col-lg-4 evenements_left_container">
+                <div class="evenements_left_box">
+                    <img src="/assets/images/Evenement/FacadeCine.png" alt="photo cinema festival">
+                    <div class="evenements_box_texte">
+                        <p class="evenements_sous_titres">FESTIVAL INTERNATIONAL DU FILM</p>
+                        <p>Retrouvez la dixième édition du festival internationnal du film indépendant de Bordeaux en projection dans votre cinéma</p>
+                    </div>
+                </div>
+                <div class="evenements_buttons">{% include button.html text="Voir l'évenement" %}</div>
+            </div>
+
+            <div class="offset-2 col-lg-4 evenements_right_container">
+                <div class="evenements_right_box">
+                    <img src="/assets/images/Evenement/Evenement2.png" alt="photo évènement 2">
+                    <div class="evenements_box_texte">
+                        <p class="evenements_sous_titres">LES NUITS MAGIQUES</p>
+                        <p>La trentième édition du festival internationnal du film d'animation "les nuits magiques"</p>
+                    </div>
+                </div>
+                <div class="evenements_buttons">
+                    {% include 
+                        button.html 
+                        text="Voir l'évenement" 
+                        %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
