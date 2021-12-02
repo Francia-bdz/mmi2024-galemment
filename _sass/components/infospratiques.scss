@@ -33,6 +33,7 @@ margin-bottom: 2px;
     margin-left: 167px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .titre_tarifs {
@@ -58,7 +59,9 @@ width: 453px;
 height: 277px;
 justify-content: space-between;
 justify-self: flex-end;
-display:block;
+img{
+    vertical-align: middle;
+}
 }
 
 // .separation_texte{
@@ -77,6 +80,8 @@ font-weight: bold;
 font-size: 24px;
 letter-spacing: -0.02em;
 color: #FFFFFF;
-margin: 43px;
+margin: 20px;
+margin-left: 40px;
+
 }
 
