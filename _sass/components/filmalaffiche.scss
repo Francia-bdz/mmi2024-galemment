@@ -1,0 +1,112 @@
+// * {
+//     margin:0;
+//     padding: 0;
+// }
+
+.position-film-affiche{
+    background-image: url("/assets/images/Arriere-plan/filounet.svg"); 
+}
+
+.bandeau {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.titre {
+    // position: relative; 
+    // display:table;
+    padding-right:200px;
+    margin-bottom: 100px;
+}
+
+.rectangle_jaune {
+
+    width:400px;
+    position:relative;
+    padding:25px;
+    background-color: #F5E5A3;
+    right:0;
+    bottom:0px;
+    margin-left: 62.8%;
+    margin-top: -5%;
+}
+
+
+.films_gauche {
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+
+.films_droite {
+    align-items: flex-end;
+    display:flex;
+    justify-content:flex-end;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+
+.box_jaune {
+
+    position:relative;
+    font-family:Open sans;
+    border-radius:30px;
+    padding:5%;
+    background-color: #F5E5A3;
+    padding-bottom:10%;
+
+}
+
+.description_films {
+    margin: 0 2%;
+}
+
+.titre_prochaine_seance {
+    font-weight:bold;
+    opacity: 50%;
+    font-size:20px;
+}
+
+.titres_infos {
+    margin-top:15px;
+    font-weight:bold;
+    opacity: 50%;
+    font-size:16px;
+}
+.date_prochaine_seance {
+    font-size: 18px;
+    font-weight: 600;
+}
+p{
+    margin:0;
+    padding: 0;
+}
+
+.buttons {
+    background-color: #E38578;
+    display:table;
+    padding:10px;
+    border-radius: 40px;
+    font-size:20px;
+    color:white;
+    position: absolute;
+}
+
+#button_left {
+    transform:rotate(-9deg);
+    bottom:-10%;
+    right:-5%;
+}
+
+#button_right {
+    transform:rotate(9deg);
+    bottom:-10%;
+    left:-5%;
+}
+
+.affiches_films {
+    width:320px;
+    height:450px;
+}
