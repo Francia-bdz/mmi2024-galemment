@@ -27,6 +27,7 @@ margin-bottom: 13px;
 
 
 .p_infosPratiques{
+ 
 
     font-family:'Open Sans';
     font-size: 20px;
@@ -91,3 +92,9 @@ margin-left: 40px;
 
 }
 
+.petales_infospratiques{
+    position: absolute;
+    left: 7%;
+    top: 890%;
+    transform: rotate(-10deg);
+}
