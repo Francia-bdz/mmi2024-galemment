@@ -1,7 +1,7 @@
 
 
 .h2_cover {
-    font-family: 'Roboto' ;
+    font-family: $typo-titre ;
     font-size: 39px;
     font-style: Bold;
     line-height: 35px;
@@ -13,7 +13,7 @@
 
 
 .h3_cover {
-    font-family: 'Roboto' ;
+    font-family: $typo-titre ;
     font-size: 90px;
     height: 90px;
     color: $dark-blue;
