@@ -1,0 +1,23 @@
+.tous_les_films {
+    padding:10% 0;
+    background:$jaune;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+    .tous_les_films_slideshow {
+        width:100%;
+        background-color:#000000;
+        .carousel-item {
+            width:500px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
