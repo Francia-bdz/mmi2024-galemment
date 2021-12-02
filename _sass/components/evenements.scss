@@ -2,14 +2,14 @@
 
 
 .evenements_left_box, .evenements_right_box {
-
     border-radius:30px; 
+    overflow: hidden;
     background-color: #1A353D;
     height:100%;
 }
 
 .evenements_containers {
-    overflow: hidden;
+
     display:flex;
     justify-content: space-around;
     img {
@@ -34,13 +34,18 @@
 
 .evenements_box_texte {
 
-    padding: 10% 20px;
+    padding: 5% 5% 10% 5%;
     font-family:Open sans;
     font-size:20px;
     font-weight: bold;
     color:white;
     letter-spacing: -0.02em;
-    padding-bottom: 20px;
+
+    .evenements_sous_titres {
+        color: $jaune;
+        margin-bottom:2%;
+    }
+
     p {
         color:#FFFFFF;
     }
@@ -57,8 +62,9 @@
 
     position:absolute;
     display: table;
-    right:0%;
-    bottom:-10%;
+    right:-5%;
+    bottom:-5%;
+
 
 
 }
