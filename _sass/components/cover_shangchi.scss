@@ -1,0 +1,77 @@
+.img_ba{
+    width : 96%;
+    margin : 2%;
+    margin-top : 0%;
+}
+
+
+.affiche_petale {
+    position : relative;
+}
+
+.affiche_page2{
+    width : 320px;
+    height : 479px;
+    margin-top : -14%;
+}
+
+.petale_shangchi {
+    /* margin :0%;
+    padding : 0%; */
+    bottom:0;
+    left:0;
+    position : absolute;
+
+
+}
+
+.shang_chi_fiche{
+    display : flex;
+    justify-content : flex-start;
+    margin-left : 10%;
+    margin-bottom : 10%;
+}
+
+.box_jaune_page2{
+    border-radius : 10px;
+    font-family : open-sans;
+    color :#1A353D;
+    background-color: #F5E5A3;
+    padding : 4%;
+    width : 610px;
+    z-index: 1 ;
+    box-shadow: 15px 15px rgba(245, 229, 163, 0.5);;
+}
+
+.description_film{
+    margin : 2%;
+    display : flex;
+    flex-direction : column;
+    justify-content : flex-end;
+    margin-top : 5%;
+
+}
+
+.p_description {
+    margin : 2%;
+}
+
+.synopsis {
+    background-color: #E38578;
+    padding : 4%;
+}
+
+.resume_synopsis {
+    color : #FFFF;
+    margin-top : 5%;
+}
+
+.titre_synopsis {
+    position: relative;
+    
+}
+
+/* .affiche-petale{
+    display: flex ;
+} */
+
