@@ -71,8 +71,10 @@
     align-items: flex-end;
     flex-wrap: nowrap;
     margin-left: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 20%;  
 }
+
+
 
 .films_droite {
     align-items: flex-end;
@@ -80,6 +82,9 @@
     justify-content:flex-end;
     margin-right: 10%;
     margin-bottom: 20%;
+    @media screen and (max-width:768px) {
+        background-color:blue;
+    }
 }
 
 .box_jaune {
@@ -122,12 +127,7 @@ p{
 }
 
 .buttons {
-    background-color: #D47C70;
     display:table;
-    padding:10px;
-    border-radius: 40px;
-    font-size:20px;
-    color:white;
     position: absolute;
 }
 
