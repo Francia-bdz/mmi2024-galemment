@@ -1,14 +1,4 @@
-.rectangle_jaune {
-    width: 400px;
-    padding: 25px;
-    background-color: #F5E5A3;
-    margin-top: -7%;
-    position: relative;
-    z-index: -1;
-    
-    
 
-}
 
 h2 {
     font-family: $typo-titre;
@@ -19,6 +9,7 @@ h2 {
 }
 
 .avis_du_directeur{
+
     text-align: auto;
     padding-top: 3%;
     font-size: 23px;
@@ -28,6 +19,51 @@ h2 {
 }
 
 .logo_et_rectangle{
-    justify-content: space-between;
+
+    max-width: 1000px;
+    margin: auto;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+
+
+
+ 
+
+  .sub-bg {
+    position: relative;
+    display: table;
+    &:after {
+      content: "";
+      display: block;
+      background: $jaune;
+      position: absolute;
+      bottom: -10px;
+      height: 50px;
+      width: calc( 50vw - 500px);
+      left: 0;
+      transform: translateX(-100%);
+      z-index: -1;
+    }
+    &::before {
+      content: "";
+      display: block;
+      background: $jaune;
+      position: absolute;
+      bottom: -10px;
+      height: 50px;
+      width: 50%;
+      left: 0;
+      z-index: -1;
+    }
+  }
+  
+  
+  
+  
+  
+.avis_rectangle_jaune {
     display: flex;
+    justify-content: space-between;
 }
