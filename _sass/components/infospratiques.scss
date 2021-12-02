@@ -1,3 +1,9 @@
+.infosPratiques{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+
 .titre_infosPratiques{
     position: relative; 
     display:table;
@@ -6,7 +12,7 @@
 }
 
 .h2_infosPratiques{
-margin-bottom: 2px;
+margin-bottom: 13px;
 }
 
 .rectangle_jaune {
@@ -26,12 +32,14 @@ margin-bottom: 2px;
     font-size: 20px;
     color: #1A353D;
     font-weight: 200;
+    line-height: 30px;
 }
 
 .bloc_infosPratiques{
     margin-left: 167px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .titre_tarifs {
@@ -57,7 +65,9 @@ width: 453px;
 height: 277px;
 justify-content: space-between;
 justify-self: flex-end;
-display:block;
+img{
+    vertical-align: middle;
+}
 }
 
 // .separation_texte{
@@ -76,6 +86,8 @@ font-weight: bold;
 font-size: 24px;
 letter-spacing: -0.02em;
 color: #FFFFFF;
-margin: 43px;
+margin: 20px;
+margin-left: 40px;
+
 }
 
