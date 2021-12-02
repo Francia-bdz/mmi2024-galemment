@@ -17,6 +17,7 @@ header {
             display:flex;
             justify-content:space-around;
             align-items:center;
+            text-align: center;
         
 
             .header_navbar_liens {
@@ -28,10 +29,19 @@ header {
                 line-height: 23px;
                 text-align: center;
                 letter-spacing: -0.02em;
-
+                transition-duration: 0.2s;
                 color: #000000;
+                
+                &:hover {
+                    transform: scale(1.10);
+                    font-weight: bold;
+                    }
+                }
             }
         }
 
     }
-}
+
+
+
+
