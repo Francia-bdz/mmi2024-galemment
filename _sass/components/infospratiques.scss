@@ -1,0 +1,72 @@
+.titre_infosPratiques{
+    position: relative; 
+    display:table;
+    padding-left:200px;
+    margin-bottom: 100px;
+}
+
+.h2_infosPratiques{
+margin-bottom: 2px;
+}
+
+.rectangle_jaune {
+    width:400px;
+    position:absolute;
+    padding:25px;
+    background-color: #F5E5A3;
+    left:-0;
+    bottom:0px;
+    z-index: -1;
+}
+
+
+.p_infosPratiques{
+
+    font-family:'Open Sans';
+    font-size: 20px;
+    color: #1A353D;
+    font-weight: 200;
+}
+
+.bloc_infosPratiques{
+    margin-left: 167px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_tarifs {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 43px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.tarifs {
+    display: flex;
+}
+
+.bloc_tarifs{
+background-color:#1A353D;
+border-radius: 32px;
+width: 453px;
+height: 277px;
+justify-content: space-between;
+justify-self: flex-end;
+}
+
+.ul_tarifs {
+    padding: 0;
+}
+
+.li_tarifs {
+list-style: none;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+margin: 43px;
+}
+
