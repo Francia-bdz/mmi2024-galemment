@@ -4,7 +4,8 @@ h2 {
     font-family: $typo-titre;
     font-size: 77px;
     font-weight: bold;
-    color: #1A353D;
+    color: $dark-blue;
+    font-weight: black;
     margin-top: 0%; 
 }
 
@@ -13,7 +14,7 @@ h2 {
     text-align: auto;
     padding-top: 3%;
     font-size: 23px;
-    color: #1A353D;
+    color: $dark-blue;
     margin-left: 15%;
 
 }

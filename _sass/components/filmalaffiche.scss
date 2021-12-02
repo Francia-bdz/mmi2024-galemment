@@ -8,7 +8,7 @@
 // }
 
 .parent-fil{
-    // text-align: center;
+   
 }
 .style-lizere{
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@
     z-index: -1 ;
     position: absolute;
     margin-left: 20%;
+    margin-top: 0px;
 }
 
 .bandeau {
@@ -27,38 +28,37 @@
 .titre {
     // position: relative; 
     // display:table;
+    // margin-top: 246px;
     padding-right:200px;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
 }
 
-.rectangle_jaune {
-
-    width:400px;
-    position:relative;
-    padding:25px;
+.rectangle_début_jaune {
     position: relative;
     display: table;
-        &:after {
-        content: "";
-        display: block;
-        background-color: #F5E5A3;
-        position: absolute;
-        bottom: -10px;
-        height: 20px;
-        width: calc( 50vw - 500px);
-        left: 0;
-        transform: translateX(-100%);
-        z-index: -1;
-        }
+    text-align: right;
+    margin-top: 246px;
+        // &:after {
+        // content: "";
+        // display: block;
+        // background-color: #F5E5A3;
+        // position: absolute;
+        // bottom: 20px;
+        // height: 62px;
+        // z-index: -1;
+        // width: calc( 50vw - 500px);
+        // left: 100;
+        // transform: translateX(-100%);
+        // }
         &::before {
         content: "";
         display: block;
         background-color: #F5E5A3;
         position: absolute;
-        bottom: -10px;
-        height: 20px;
-        width: 50%;
-        left: 0;
+        bottom: -30px;
+        height: 62px;
+        width: 107%;
+        left: 30%;
         z-index: -1;
         }
 }
