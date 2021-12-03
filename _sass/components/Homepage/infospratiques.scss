@@ -56,6 +56,7 @@ margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     margin-left: 55%;
+    margin-bottom: -10%;
 
 }
 
@@ -93,8 +94,7 @@ margin-left: 40px;
 }
 
 .petales_infospratiques{
-    position: absolute;
-    left: 7%;
-    top: 890%;
+    position: relative;
+    left: -50%;
     transform: rotate(-10deg);
 }

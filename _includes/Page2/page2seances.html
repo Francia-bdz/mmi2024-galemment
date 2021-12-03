@@ -1,15 +1,78 @@
 <section class="page2seances.html">
-    
-    <div class="logo_et_rectangle_seances">
-        <div class="seances_rectangle_jaune">
-            <h2 class="sub-bg"> Séances  </h2>
-            <div class="logo_petale">
-                <img src="/assets/images/Petales/Page 2/petale3page2.svg" alt="logo petale">
-            </div>
-        </div>
-    
-     
-    </div>
-
+    {% include h2rectangle.html text="Séances wesh" %}
 </section>
 
+<div class="container ">
+    <div class="row seances_jours">
+        <div class="offset-2 col-md-2">
+            <p>Mercredi</p>
+            <p class="seances_jours_chiffres">17</p>
+        </div>
+        <div class="col-md-2">
+            <p>Jeudi</p>
+            <p class="seances_jours_chiffres">18</p>
+        </div>
+        <div class="col-md-2">
+            <p>Vendredi</p>
+            <p class="seances_jours_chiffres">19</p>
+        </div>
+        <div class="col-md-2">
+            <p>Samedi</p>
+            <p class="seances_jours_chiffres">20</p>
+        </div>
+        <div class="col-md-2">
+            <p>dimanche</p>
+            <p class="seances_jours_chiffres">21</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="row seances_horaires">
+        <div class="offset-3 col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
+        </div>
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
+        </div>
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
+        </div>
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
+        </div>
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
+        </div>
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
+        </div>
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
+        </div>
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
+        </div>
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
+        </div>
+    </div>
+</div>
