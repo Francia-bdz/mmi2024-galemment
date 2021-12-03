@@ -2,27 +2,27 @@
     {% include h2rectangle.html text="Séances wesh" %}
 </section>
 
-<div class="container">
-    <div class="row">
+<div class="container ">
+    <div class="row seances_jours">
         <div class="offset-2 col-md-2">
             <p>Mercredi</p>
-            <p>17</p>
+            <p class="seances_jours_chiffres">17</p>
         </div>
         <div class="col-md-2">
             <p>Jeudi</p>
-            <p>17</p>
+            <p class="seances_jours_chiffres">18</p>
         </div>
         <div class="col-md-2">
             <p>Vendredi</p>
-            <p>17</p>
+            <p class="seances_jours_chiffres">19</p>
         </div>
         <div class="col-md-2">
             <p>Samedi</p>
-            <p>17</p>
+            <p class="seances_jours_chiffres">20</p>
         </div>
         <div class="col-md-2">
             <p>dimanche</p>
-            <p>17</p>
+            <p class="seances_jours_chiffres">21</p>
         </div>
     </div>
 
@@ -31,28 +31,48 @@
 
 
 
-    <div class="row">
+    <div class="row seances_horaires">
         <div class="offset-3 col-md-1">
-            {% include button.html text="18h" %}
-            {% include button.html text="20h" %}
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
         </div>
-        <div class="offset-1 col-md-1">
-            {% include button.html text="18h" %}
-            {% include button.html text="20h" %}
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
         </div>
-        
-        <div class="offset-1 col-md-1">
-            {% include button.html text="18h" %}
-            {% include button.html text="20h" %}
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
         </div>
-        <div class="offset-1 col-md-1">
-            {% include button.html text="18h" %}
-            {% include button.html text="20h" %}
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
         </div>
-        <div class="offset-1 col-md-1">
-            {% include button.html text="18h" %}
-            {% include button.html text="20h" %}
-            
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
+        </div>
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
+        </div>
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
+        </div>
+        <div class="col-md-1 ">
+            <div class="seances_horaires_colonne"></div>
+        </div>
+        <div class="col-md-1">
+            <section class="seances_horaires_buttons">
+                <div>{% include button.html text="18h" %}</div>
+                <div>{% include button.html text="20h" %}</div>
+            </section>
         </div>
     </div>
 </div>
