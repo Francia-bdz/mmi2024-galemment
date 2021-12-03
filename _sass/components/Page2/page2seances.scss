@@ -1,3 +1,9 @@
+.index_seance{
+  margin-top: 20%;
+  &::before {
+    width: 138%;
+}
+}
 .seances_jours {
     p {
       position:relative;
