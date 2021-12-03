@@ -10,6 +10,18 @@
 .parent-fil{
    
 }
+
+.petale_ron{
+    position : absolute;
+    margin-left : 70%;
+    width : 8%;
+}
+
+.petale_shang{
+    position : absolute;
+    width : 8%;
+}
+
 .style-lizere{
     background-repeat: no-repeat;
     width: 903px;
@@ -176,4 +188,9 @@ p{
     display: flex;
     justify-content:space-between ;
     max-width: 215px;
+}
+
+.petale_explosion{
+    margin-left : 60%;
+    margin-top : 5%;
 }
