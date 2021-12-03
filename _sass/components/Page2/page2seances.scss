@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+h2{
+    
+}
+
+
+.sub-bg {
+    position:relative;
+    display: table;
+    &:after {
+      content: "";
+      display: block;
+      background: $jaune;
+      position: absolute;
+      bottom: -10px;
+      height: 50px;
+      width: calc( 50vw - 500px);
+      left: 0;
+      transform: translateX(-100%);
+      z-index: -1;
+=======
+.seances_jours {
+    p {
+      position:relative;
+      font-size:20px;
+      text-align: end;
+>>>>>>> d8b1c34c8405c6940e9556ef388b24621e438ff8
+    }
+    
+  .seances_jours_chiffres {
+    padding:5% 0%;
+    font-family:Roboto;
+    font-size:50px;
+    font-weight:bold;
+  }
+}
+
+
+
+.seances_horaires {
+  .col-md-1{
+    display: flex;
+    justify-content:center;
+  }
+
+  .seances_horaires_colonne {
+      background-color:#868686;
+      opacity:40%;
+      width:3px;
+      height:150px;
+  }
+
+  .seances_horaires_buttons {
+    margin-top:50%;
+
+  }
+}
