@@ -1,4 +1,33 @@
-
+.titre_boite{
+    position: relative;
+    display: table;
+    text-align: right;
+    margin-bottom: 10%;
+    margin-left: 10%;
+        // &:after {
+        // content: "";
+        // display: block;
+        // background-color: #F5E5A3;
+        // position: absolute;
+        // bottom: 20px;
+        // height: 62px;
+        // z-index: -1;
+        // width: calc( 50vw - 500px);
+        // left: 100;
+        // transform: translateX(-100%);
+        // }
+        &::before {
+        content: "";
+        display: block;
+        background: $color-main-bloc;
+        position: absolute;
+        bottom: -30px;
+        height: 62px;
+        width: 107%;
+        left: -40%;
+        z-index: -1;
+        }
+}
 
 
 .evenements_left_box, .evenements_right_box {
