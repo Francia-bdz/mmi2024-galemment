@@ -5,6 +5,7 @@
         text-align: right;
         margin-bottom: 2%;
         margin-left: 10%;
+        z-index: 1;
             &::before {
             content: "";
             display: block;
@@ -51,6 +52,9 @@
     .tous_les_films_text {
         font-style: italic;
         margin-left : 5%;
+    }
+    .touslesfilms{
+
     }
 
     
