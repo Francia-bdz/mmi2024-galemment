@@ -1,0 +1,54 @@
+.suggestions_titre_boite {
+    padding-top:3%;
+    position: relative;
+    display: table;
+    text-align: right;
+    margin-bottom: 2%;
+    margin-left: 10%;
+        &::before {
+        content: "";
+        display: block;
+        background: white;
+        position: absolute;
+        bottom: -30px;
+        height: 62px;
+        width: 107%;
+        left: -40%;
+        z-index: -1;
+        }
+}
+
+
+
+
+.suggestions_vaguesback{
+position: relative;
+height: 1000px;
+width: 100%;
+background: $jaune;
+}
+
+
+
+.vague_toutlesfilmshaut{
+    top: -120px;
+    left: 10%;
+}
+.vague_toutlesfilmsbas{
+    top: 1000px;
+    right: 0%;
+}
+
+.suggestions_buttons {
+    margin:5%;
+    width:40%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.suggestions_text {
+    font-style: italic;
+    margin-left : 5%;
+}
+
