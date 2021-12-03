@@ -4,18 +4,6 @@
     text-align: right;
     margin-bottom: 10%;
     margin-left: 10%;
-        // &:after {
-        // content: "";
-        // display: block;
-        // background-color: #F5E5A3;
-        // position: absolute;
-        // bottom: 20px;
-        // height: 62px;
-        // z-index: -1;
-        // width: calc( 50vw - 500px);
-        // left: 100;
-        // transform: translateX(-100%);
-        // }
         &::before {
         content: "";
         display: block;
@@ -35,6 +23,7 @@
     overflow: hidden;
     background-color: #1A353D;
     height:100%;
+
 }
 
 .evenements_containers {
@@ -42,8 +31,9 @@
     display:flex;
     justify-content: space-around;
     img {
-        width:100%;
+        width:100%
     }
+
 }
 
 
