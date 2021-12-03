@@ -1,14 +1,22 @@
+.position_vague{
+    position: absolute;
+    margin-top: -11%;
+    margin-left: -10%;
+}
+
 .synopsis {
     background-color: #E38578;
     padding : 10%;  
     padding-top : 5%;
     padding-bottom : 12%;
+    position: relative;
 }
 
 .titre_synopsis {
     position: relative;
     margin-left : 2%; 
     position : relative;
+    padding-top: 0px;
 }
 
 .resume_synopsis {
@@ -21,7 +29,7 @@
     width : 570px;
     height : 62px;
     background-color: #FFFF;
-    margin-top : -16%;
+    margin-top : -15%;
     margin-left : -14%;
 }
 
