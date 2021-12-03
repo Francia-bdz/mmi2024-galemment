@@ -1,0 +1,19 @@
+.vaguesback{
+    position: relative;
+    height: 601px;
+    width: 100%;
+    background: $jaune;
+    padding-top: 100px;
+    }
+
+    // display: flex;
+    // flex-direction: row;
+
+    .vague_toutlesfilmshaut{
+        top: -120px;
+        left: 10%;
+    }
+    .vague_toutlesfilmsbas{
+        top: 601px;
+        right: 0%;
+    }
