@@ -5,16 +5,16 @@
 
 @import "components/header";
 @import "components/footer";
-@import "components/cover_shangchi";
-@import "components/infocovid";
-@import "components/cover";
-@import "components/filmalaffiche";
+@import "components/Page2/cover_shangchi";
+@import "components/Homepage/infocovid";
+@import "components/Homepage/cover";
+@import "components/Homepage/filmalaffiche";
 @import "components/button.scss";
-@import "components/slideshow.scss";
-@import "components/evenements.scss";
-@import "components/Page2avisdirecteur.scss";
-@import "components/infospratiques.scss";
-@import "components/page2suggestion.scss";
-@import "components/page2seances.scss";
-@import "components/synopsis_shangchi.scss";
+@import "components/Page2/synopsis_shangchi.scss";
+@import "components/Homepage/slideshow.scss";
+@import "components/Homepage/evenements.scss";
+@import "components/Page2/Page2avisdirecteur.scss";
+@import "components/Homepage/infospratiques.scss";
+@import "components/Page2/page2suggestion.scss";
+@import "components/Page2/page2seances.scss";
 

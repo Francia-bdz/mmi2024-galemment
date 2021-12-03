@@ -82,9 +82,6 @@
     justify-content:flex-end;
     margin-right: 10%;
     margin-bottom: 20%;
-    @media screen and (max-width:768px) {
-        background-color:blue;
-    }
 }
 
 .box_jaune {
@@ -134,13 +131,13 @@ p{
 #button_left {
     transform:rotate(-9deg);
     bottom:-10%;
-    right:-5%;
+    right:-10%;
 }
 
 #button_right {
     transform:rotate(9deg);
     bottom:-10%;
-    left:-5%;
+    left:-10%;
 }
 
 .affiches_films {
