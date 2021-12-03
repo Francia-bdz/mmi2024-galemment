@@ -1,0 +1,35 @@
+.seances_jours {
+    p {
+      position:relative;
+      font-size:20px;
+      text-align: end;
+    }
+    
+  .seances_jours_chiffres {
+    padding:5% 0%;
+    font-family:Roboto;
+    font-size:50px;
+    font-weight:bold;
+  }
+}
+
+
+
+.seances_horaires {
+  .col-md-1{
+    display: flex;
+    justify-content:center;
+  }
+
+  .seances_horaires_colonne {
+      background-color:#868686;
+      opacity:40%;
+      width:3px;
+      height:150px;
+  }
+
+  .seances_horaires_buttons {
+    margin-top:50%;
+
+  }
+}
