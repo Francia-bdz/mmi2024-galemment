@@ -5,6 +5,7 @@
         text-align: right;
         margin-bottom: 2%;
         margin-left: 10%;
+        z-index: 1;
             &::before {
             content: "";
             display: block;
@@ -23,7 +24,7 @@
 
 .vaguesback{
     position: relative;
-    max-height: 1000px;
+    height: 1000px;
     width: 100%;
     background: $jaune;
     padding-top: 100px;
@@ -36,7 +37,7 @@
         left: 10%;
     }
     .vague_toutlesfilmsbas{
-        top: 601px;
+        bottom: -1000px;
         right: 0%;
     }
 
@@ -51,6 +52,9 @@
     .tous_les_films_text {
         font-style: italic;
         margin-left : 5%;
+    }
+    .touslesfilms{
+
     }
 
     
