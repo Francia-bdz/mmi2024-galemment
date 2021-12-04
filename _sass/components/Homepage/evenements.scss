@@ -23,8 +23,8 @@
     overflow: hidden;
     background-color: #1A353D;
     height:100%;
-
 }
+
 
 .evenements_containers {
 
@@ -37,17 +37,16 @@
 }
 
 
-
 .evenements_left_container, .evenements_right_container {
     position:relative;
 }
+
 
 .evenements_sous_titres {
     margin:0;
     color:#F5E5A3;
     font-family: Roboto;
-    font-size:28px;
-    
+    font-size:28px;   
 }
 
 
@@ -73,10 +72,6 @@
 }
 
 
-
-
-
-
 .evenements_buttons{
 
     position:absolute;
@@ -84,10 +79,8 @@
     right:-5%;
     bottom:-5%;
     transform: rotate(-9deg);
-
-
-
 }
+
 
  
 
