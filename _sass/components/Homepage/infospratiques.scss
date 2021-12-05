@@ -13,6 +13,9 @@
 
 .h2_infosPratiques{
     margin-bottom: 2.5%;
+    @media screen and (max-width:768px) {
+        margin-left: -5%;
+    }
 }
 
 .rectangle_jaune {
@@ -23,6 +26,9 @@
     left:-0;
     bottom:0px;
     z-index: -1;
+    @media screen and (max-width:768px) {
+        width:90%;
+    }
 }
 
 
@@ -45,12 +51,16 @@
 }
 
 .titre_tarifs {
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 43px;
 color: rgba(0, 0, 0, 0.5);
 margin-bottom: 5%;
+@media screen and (max-width:768px) {
+    line-height: 100%;
+    margin-top: 10%;
+}
 }
 
 .tarifs {
@@ -58,18 +68,32 @@ margin-bottom: 5%;
     flex-direction: column;
     margin-left: 55%;
     margin-bottom: -10%;
-
+    @media screen and (max-width:768px) {
+        margin-left: -8%;
+        margin-top: 10%;
+    }
 }
 
 .bloc_tarifs{
 background-color:#1A353D;
 border-radius: 32px;
-width: 453px;
+max-width: 453px;
 height: 277px;
 justify-content: space-between;
 justify-self: flex-end;
     img {
     vertical-align: middle;
+    @media screen and (max-width:768px) {
+        width: 37%;
+        }
+    }
+    .prix_7{
+        @media screen and (max-width:768px) {
+        width: 41%;
+        }
+    }
+    @media screen and (max-width:768px) {
+        max-width: 350px ;
     }
 }
 
@@ -92,4 +116,11 @@ margin-left: 40px;
     left: -50%;
     transform: rotate(-10deg);
     max-height: 190px;
+    @media screen and (max-width:768px) {
+        left: -30%;
+        top: 30px;
+        transform: rotate(-30deg);
+        max-height: 120px;
+    }
 }
+
