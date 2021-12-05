@@ -89,7 +89,7 @@
     .touslesfilms{
 margin-top: 20%;
 @media screen and (max-width:768px) {
-    margin-top: 55%;
+    margin-top: 65%;
 }
     }
 
@@ -100,4 +100,7 @@ margin-top: 20%;
     position: absolute;
     top: -13%;
     left: 48.5% ;
+    @media screen and (max-width:768px) {
+           width: 0;
+    }
 }
