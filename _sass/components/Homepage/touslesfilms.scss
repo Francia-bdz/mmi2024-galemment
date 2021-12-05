@@ -42,9 +42,10 @@
     width: 100%;
     background: $jaune;
     padding-top: 100px;
-    }
-
-
+    // @media screen and (max-width:768px) {
+    //     height: 800px;  
+    // }
+}
 
     .vague_toutlesfilmshaut{
         top: -120px;
