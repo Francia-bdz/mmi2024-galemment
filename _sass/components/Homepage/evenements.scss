@@ -1,3 +1,9 @@
+.evenements {
+    @media screen and (max-width:768px) {
+        margin-top: 20%;
+    }
+}
+
 .titre_boite{
     position: relative;
     display: table;
@@ -39,6 +45,9 @@
 
 .evenements_left_container, .evenements_right_container {
     position:relative;
+    @media screen and (max-width:768px) {
+      margin-top: 15%;
+    }
 }
 
 
@@ -79,6 +88,9 @@
     right:-5%;
     bottom:-5%;
     transform: rotate(-9deg);
+    @media screen and (max-width:768px) {
+        right: 0%;
+      }
 }
 
 
