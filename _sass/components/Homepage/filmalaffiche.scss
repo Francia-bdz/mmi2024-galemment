@@ -8,8 +8,13 @@
 
 .petale_shang{
     position : relative;
-    width : 8%;
-    right: 25%;
+    width : 20%;
+    right: 6%;
+    @media screen and (max-width:768px) {
+       width: 20%;
+       transform:rotate(80deg);
+       left: 30%;
+      }
     
 }
 
@@ -90,6 +95,16 @@
         align-items:center;
         margin: 0 0 30% 0;
 
+    }
+    .affiches_films {
+        @media screen and (max-width:768px) {
+          order: 1;
+        }
+    }
+    .description_films {
+    @media screen and (max-width:768px) {
+        order: 2;
+      }
     }
 }
 
@@ -197,6 +212,11 @@ p{
     justify-content:space-between ;
     max-width: 300px;
     margin-left: 40%;
+    @media screen and (max-width:768px) {
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+      }
 }
 
 .h3_Venom {
