@@ -1,15 +1,21 @@
 
 
 .petale_ron{
-    position : absolute;
-    margin-left : 70%;
+    position : relative;
+    left : 60%;
     width : 8%;
 }
 
 .petale_shang{
-    position : absolute;
-    width : 8%;
-    left: -50%;
+    position : relative;
+    width : 20%;
+    right: 6%;
+    @media screen and (max-width:768px) {
+       width: 20%;
+       transform:rotate(80deg);
+       left: 30%;
+      }
+    
 }
 
 .style-lizere{
@@ -20,6 +26,9 @@
     position: absolute;
     margin-left: 20%;
     margin-top: 0px;
+    @media screen and (max-width: 768px) {
+        width: 0%
+    }
 }
 
 .bandeau {
@@ -87,6 +96,16 @@
         margin: 0 0 30% 0;
 
     }
+    .affiches_films {
+        @media screen and (max-width:768px) {
+          order: 1;
+        }
+    }
+    .description_films {
+    @media screen and (max-width:768px) {
+        order: 2;
+      }
+    }
 }
 
 .box_jaune {
@@ -100,8 +119,10 @@
     margin-right : 5%;
     margin-top : 2%;
     box-shadow: 20px 20px rgba(245, 229, 163, 0.5);
-    @media screen and (max-width:768px) {
-        width:100%;
+    @media screen and (max-width: 768px) {
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
     }
 
 
@@ -118,6 +139,10 @@
     margin-right : 5%;
     margin-top : 2%;
     box-shadow: -20px 20px rgba(245, 229, 163, 0.5);
+    @media screen and (max-width: 768px) {
+        width: 90%;
+        margin: auto;
+    }
 
 }
 
@@ -187,6 +212,11 @@ p{
     justify-content:space-between ;
     max-width: 300px;
     margin-left: 40%;
+    @media screen and (max-width:768px) {
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+      }
 }
 
 .h3_Venom {

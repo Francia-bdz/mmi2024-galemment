@@ -7,8 +7,8 @@
 .synopsis {
     background-color: #E38578;
     padding : 10%;  
-    padding-top : 5%;
-    padding-bottom : 12%;
+    padding-top : 6%;
+    padding-bottom : 17%;
     position: relative;
 }
 
@@ -16,7 +16,6 @@
     position: relative;
     margin-left : 2%; 
     margin-bottom: -1%;
-    position : relative;
     padding-top: 0px;
 }
 
@@ -26,16 +25,21 @@
     margin-left : 2%;
 }
 
-.rectangle_blanc {
-    width : 570px;
-    height : 62px;
-    background-color: #FFFF;
-    margin-top : -15%;
+ .rectangle_blanc {
+     width : 570px;
+     height : 62px;
+     background-color: #FFFF;
+     margin-top : -15%;
     margin-left : -14%;
 }
 
 .petale_synopsis {
     position : absolute;
-    margin-left : 60%;
-    margin-top : 5%;
+    left : 60%;
+    bottom : 30%;
+    margin : 0%;
+    padding : 0%;
+    display : flex;
+    
 }
+

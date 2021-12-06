@@ -1,28 +1,35 @@
 .infosPratiques{
-    margin-bottom: 50px;
-    margin-top: 100px;
-}
+    margin-bottom: 10%;
+    margin-top: 5%;
+    }
 
 
 .titre_infosPratiques{
     position: relative; 
     display:table;
-    padding-left:200px;
-    margin-bottom: 100px;
-}
+    padding-left: 15%;
+    margin-bottom: 5%;
+    }
 
 .h2_infosPratiques{
-margin-bottom: 13px;
+    margin-bottom: 2.5%;
+    @media screen and (max-width:768px) {
+        margin-left: -5%;
+        font-size: 60px;
+    }
 }
 
 .rectangle_jaune {
     width:400px;
     position:absolute;
-    padding:25px;
+    padding:5%;
     background-color: #F5E5A3;
     left:-0;
     bottom:0px;
     z-index: -1;
+    @media screen and (max-width:768px) {
+        width:80%;
+    }
 }
 
 
@@ -37,19 +44,24 @@ margin-bottom: 13px;
 }
 
 .bloc_infosPratiques{
-    margin-left: 167px;
+    margin-left: 12%;
     display: flex;
     flex-direction: column;
+    margin-bottom : 10%;
     
 }
 
 .titre_tarifs {
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 43px;
 color: rgba(0, 0, 0, 0.5);
 margin-bottom: 5%;
+@media screen and (max-width:768px) {
+    line-height: 100%;
+    margin-top: 10%;
+}
 }
 
 .tarifs {
@@ -57,28 +69,36 @@ margin-bottom: 5%;
     flex-direction: column;
     margin-left: 55%;
     margin-bottom: -10%;
-
+    @media screen and (max-width:768px) {
+        margin-left: -10%;
+        margin-top: 10%;
+       
+    }
 }
 
 .bloc_tarifs{
 background-color:#1A353D;
 border-radius: 32px;
-width: 453px;
+max-width: 453px;
 height: 277px;
 justify-content: space-between;
 justify-self: flex-end;
-img{
+    img {
     vertical-align: middle;
-}
+    @media screen and (max-width:768px) {
+        width: 37%;
+        }
+    }
+    .prix_7{
+        @media screen and (max-width:768px) {
+        width: 41%;
+        }
+    }
+    @media screen and (max-width:768px) {
+        max-width: 350px ;
+    }
 }
 
-// .separation_texte{
-// background-color: aqua;
-// }
-
-// .separation_prix{
-// background-color: aqua;
-// }
 
 .p_tarifs {
 list-style: none;
@@ -98,4 +118,11 @@ margin-left: 40px;
     left: -50%;
     transform: rotate(-10deg);
     max-height: 190px;
+    @media screen and (max-width:768px) {
+        left: -30%;
+        top: 30px;
+        transform: rotate(-30deg);
+        max-height: 120px;
+    }
 }
+

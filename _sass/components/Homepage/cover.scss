@@ -1,4 +1,4 @@
-
+// Texte 
 
 .h2_cover {
     font-family: $typo-titre ;
@@ -9,7 +9,6 @@
     color: $dark-blue;
     margin-top: 30px;
     margin-bottom: 5px;
-
 
 }
 
@@ -43,10 +42,13 @@ a{
     margin: 0;
 }
 
+
 .film {
     text-decoration: underline;
     font-weight:bolder;
 }
+
+// Structure
 
 .rectangle{
 display: flex;
@@ -62,6 +64,7 @@ background: #F6D8D4;
         margin:0;
         background:none;
         margin-bottom: 100%;
+        margin-top: -20%;
     
     }
 
@@ -73,7 +76,7 @@ background: #F6D8D4;
     padding: 49px 85px 0px 108px; 
     @media screen and (max-width:768px) {
         width:100%;
-        padding:5%;
+        padding:3%;
         z-index:30;
         background: #F6D8D4;
         position:absolute;
@@ -84,12 +87,20 @@ background: #F6D8D4;
     
 }
 
+.title-movie{
+    display: flex;
+    margin: 0px;
+    margin-bottom: 8px;
+    height: 90px;
+}
 .structure-text{
     display: flex;
     align-content: center;
     flex-direction: column;
     justify-content: center;
 }
+
+// Images
 
 .image-encanto {
     width: 50%;
@@ -98,11 +109,9 @@ background: #F6D8D4;
     object-position: left;
     @media screen and (max-width:768px) {
         width:100%;
-        object-position: none;
         object-position: center;
-
-
-
+        margin-top: 5%;
+        margin-bottom: -60%;
     }
         
 }
@@ -115,18 +124,19 @@ background: #F6D8D4;
 
 }
 
-.title-movie{
-    display: flex;
-    margin: 0px;
-    margin-bottom: 8px;
-    height: 90px;
-}
+
+
+// Bouton
 
 .button-cover {
     justify-self: center;
     display: table;
     margin-top: 50px;
     margin-left: 15%;
+    @media screen and (max-width:768px) {
+      margin-left: 20%;
+      margin-top: 45px;
+    }
 }
 
 

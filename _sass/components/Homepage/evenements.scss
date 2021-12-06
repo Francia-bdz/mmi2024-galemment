@@ -1,3 +1,9 @@
+.evenements {
+    @media screen and (max-width:768px) {
+        margin-top: 20%;
+    }
+}
+
 .titre_boite{
     position: relative;
     display: table;
@@ -15,6 +21,11 @@
         left: -40%;
         z-index: -1;
         }
+
+        @media screen and (max-width:768px) {
+            font-size: 60px;
+            margin-left: 5%;
+        }
 }
 
 
@@ -23,8 +34,8 @@
     overflow: hidden;
     background-color: #1A353D;
     height:100%;
-
 }
+
 
 .evenements_containers {
 
@@ -37,17 +48,19 @@
 }
 
 
-
 .evenements_left_container, .evenements_right_container {
     position:relative;
+    @media screen and (max-width:768px) {
+      margin-top: 15%;
+    }
 }
+
 
 .evenements_sous_titres {
     margin:0;
     color:#F5E5A3;
     font-family: Roboto;
-    font-size:28px;
-    
+    font-size:28px;   
 }
 
 
@@ -73,10 +86,6 @@
 }
 
 
-
-
-
-
 .evenements_buttons{
 
     position:absolute;
@@ -84,10 +93,11 @@
     right:-5%;
     bottom:-5%;
     transform: rotate(-9deg);
-
-
-
+    @media screen and (max-width:768px) {
+        right: 0%;
+      }
 }
+
 
  
 

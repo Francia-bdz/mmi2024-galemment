@@ -1,8 +1,6 @@
 
 
-// *, *:before, *:after {
-//   box-sizing: inherit;
-// }
+// Slideshow importé d'internet mais adapté à notre site
 
 .carousel {
   min-width: 900px;
@@ -264,7 +262,7 @@
   }
 
   .carousel__item--mobile-in-1 {
-    width: 90%;
+    width: 35%;
   }
 
   .carousel__item--mobile-in-2 {
