@@ -37,61 +37,58 @@
 
 
 .vaguesback{
+    overflow:hidden;
     position: relative;
     height: 1000px;
     width: 100%;
     background: $jaune;
     padding-top: 100px;
-    // @media screen and (max-width:768px) {
-    //     height: 800px;  
-    // }
+
 }
 
-    .vague_toutlesfilmshaut{
-        top: -120px;
-        left: 10%;
-    }
-    .vague_toutlesfilmsbas{
-        bottom: -1000px;
-        right: 0%;
+.vague_toutlesfilmshaut{
+    top: -120px;
+    left: 10%;
+    @media screen and (max-width:768px){
+        display:none;
     }
 
-    .tous_les_films_buttons {
-        margin:5%;
-        width:40%;
-        display:flex;
-        justify-content: space-between;
+}
 
+.vague_toutlesfilmsbas{
+    bottom: -1000px;
+    right: 0%;
+    @media screen and (max-width:768px){
+        display:none;
+    }
+}
+
+.tous_les_films_buttons {
+    margin:5%;
+    width:40%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.tous_les_films_text {
+    font-style: italic;
+    margin-left : 5%;
+    margin-top: 5%;
+    font-size: 30px;
+    p {
+        font-size: 23px;
         @media screen and (max-width:768px) {
-           
-    }
-}
-
-    .space_tous_les_films_buttons{
-        @media screen and (max-width:768px) {
-            margin: 10%;  
-    }
-}
-
-    .tous_les_films_text {
-        font-style: italic;
-        margin-left : 5%;
-        margin-top: 5%;
-        font-size: 30px;
-        p {
-            font-size: 23px;
-            @media screen and (max-width:768px) {
-                font-size: 18px;
-            }
+            font-size: 18px;
         }
     }
+}
 
     .touslesfilms{
-margin-top: 20%;
-@media screen and (max-width:768px) {
-    margin-top: 65%;
+        margin-top: 20%;
+        @media screen and (max-width:768px) {
+            margin-top: 65%;
+        }
 }
-    }
 
   
 

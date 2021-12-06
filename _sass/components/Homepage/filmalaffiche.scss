@@ -4,6 +4,9 @@
     position : relative;
     left : 60%;
     width : 8%;
+    @media screen and (max-width:768px) {
+        display: none;
+    }
 }
 
 .petale_shang{
